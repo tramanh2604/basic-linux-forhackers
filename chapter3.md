@@ -36,7 +36,7 @@ Loại mạng đang đc dùng cũng đc liệt kê (ethernet), HWaddr và đch�
 
 4) Công suất là 20 dBm - đại diện cho cường độ tín hiệu.
 
-3. Changing your network information
+## 3. Changing your network information
 1) Changing your IP address.
 
 - To change your IP address, enter ifconfig followed by the interface you want to reassign and the new IP address you want to assigned to that interface.
