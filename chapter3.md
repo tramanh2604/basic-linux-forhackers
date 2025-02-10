@@ -51,10 +51,13 @@ Loại mạng đang đc dùng cũng đc liệt kê (ethernet), HWaddr và đch�
 ### 3.3 Spoofing MAC address
 - Có thể dùng ifconfig để đổi đchi MAC hoặc HWaddr. MAC là đchi duy nhất và thường đc dùng cho mục đích bảo mật như chặn hacket khỏi network và theo dõi. 
 - Thay đổi đchi MAC là cách hữu ích để vượt qua kiểm soát truy cập mạng.
+```
+ifconfig eth0 down
 
-`ifconfig eth0 down
  ifconfig eth0 hw ether 00:11:22:33:44:55
- ifconfig eth0 up`
+ 
+ ifconfig eth0 up
+```
 
 - Dùng command down để xem giao diện interface (eth0). hw (hardware) và ether (ethernet) và đchi MAC giả mạo. Cuối cùng là backup interface với up option để thay đổi.
 
