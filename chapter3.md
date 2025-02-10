@@ -26,7 +26,7 @@ Loại mạng đang đc dùng cũng đc liệt kê (ethernet), HWaddr và đch�
 
 - Có thể dùng iwconfig để thu thập các thông tin cần thiết cho cuộc tấn công mạng k dây như địa chỉ IP của adapter, MAC, model...
 
-![iwconfig](../images/iwconfig.PNG)
+![iwconfig](/images/iwconfig.PNG)
 
 1) wlan0: mạng k dây duy nhất, theo chuận 820.11 IEEE, băng tần b và g (2 tiêu chuẩn băng tần ban đầu). Hầu hết các thiết bị k dây hiện nay có cả n (chuẩn mới nhất).
 
@@ -82,7 +82,7 @@ Then you check again with ifconfig, you should see that your IP address has chan
 
 - Using dig and ns option để nhận infor về domain nameserver. `dig hackers-arise.com ns`
 
-![dig](../images/dig.PNG)
+![dig](/images/dig.PNG)
 
 + *ADDITIONAL SECTION* trả đchi IP (216.239.32.100) của DNS server phục vụ *hackers-arise.com*
 + *mx* option: get infor về email server kết nối vs domain.
@@ -91,7 +91,7 @@ Then you check again with ifconfig, you should see that your IP address has chan
 - Nếu muốn thay đổi DNS server, chỉnh sửa filename */etc/resolv.conf*. 
 - Ví dụ dùng nano để chỉnh sửa: `nano /etc/resolv.conf`
 
-![resolv.conf](../images/resolv-conf.PNG)
+![resolv.conf](/images/resolv-conf.PNG)
 
 + nameserver được set tới local DNS server có đchi 192.168.181.2. Ví dụ muốn thay đổi nameserver thành Google's DNS server có đchi 8.8.8.8 => sửa rồi save
 
@@ -100,7 +100,7 @@ Then you check again with ifconfig, you should see that your IP address has chan
 
 - Dùng lệnh `nano /etc/hosts`
 
-![hosts file](../images/hosts-file.PNG)
+![hosts file](/images/hosts-file.PNG)
 
 + By default, the hosts file chỉ chứa mapping cho localhost tại 127.0.0.1, và system's hostname tại 127.0.1.1
 + Có thể thêm bất kỳ IP nào nối với bất kì domain bạn muốn. Ví dụ `192.168.181.131	bankofamerica.com`
