@@ -2,7 +2,7 @@
 
 ## 1. Analyzing networks with ifconfig
 
-![ifconfig](../images/ifconfig.png)
+![ifconfig](/images/ifconfig.png)
 
 - ifconfig dùng để kiểm tra và tương tác với các giao diện mạng của hệ thống
 
