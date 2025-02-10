@@ -37,7 +37,7 @@ Loại mạng đang đc dùng cũng đc liệt kê (ethernet), HWaddr và đch�
 4) Công suất là 20 dBm - đại diện cho cường độ tín hiệu.
 
 ## 3. Thay đổi thông tin network
-- Giúp kết nối với các network khác dưới dạng trusted device. Ví dụ trong DOS attacl, bạn có thể làm giả đchi IP (spoofing IP) để attack đến từ nguồn khác, tránh đc forensic analyst.
+- Giúp kết nối với các network khác dưới dạng trusted device. Ví dụ trong DOS attack, bạn có thể làm giả đchi IP (spoofing IP) để attack đến từ nguồn khác, tránh đc forensic analyst.
 
 ### 3.1 Thay đổi đchi IP
 - Để thay đổi đchi IP, dùng lệnh `ifconfig eth0 đchIP`
