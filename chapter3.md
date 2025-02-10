@@ -36,16 +36,6 @@ Loại mạng đang đc dùng cũng đc liệt kê (ethernet), HWaddr và đch�
 
 4) Công suất là 20 dBm - đại diện cho cường độ tín hiệu.
 
-## 3. Changing your network information
-1) Changing your IP address.
-
-- To change your IP address, enter ifconfig followed by the interface you want to reassign and the new IP address you want to assigned to that interface.
-
-Ex: to assign the IP address 192.168.181.115 to interface eth0, you would enter:
-ifconfig eth0 192.168.181.115
-
-Then you check again with ifconfig, you should see that your IP address has changed.
-
 ## 3. Thay đổi thông tin network
 - Giúp kết nối với các network khác dưới dạng trusted device. Ví dụ trong DOS attacl, bạn có thể làm giả đchi IP (spoofing IP) để attack đến từ nguồn khác, tránh đc forensic analyst.
 
